@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0 auto; padding:0; list-style:none;}
+body{ width:760px;}
+.hearder{ background:url(../images/banner.jpg);
+          width:760px;
+		  height:140px;}
+.hearderx{ background-color:#9FF;
+           width:760px;
+		   height:17px;
+		   text-align:20px;
+		   padding-top:3px;}
