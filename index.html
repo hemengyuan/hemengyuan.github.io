@@ -4,80 +4,171 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>hemengyuan</title>
 <style>
-*{margin:0; padding:0; list-style:none;}
+*{margin:0; padding:0;}
+ul{
+	list-style:none;}
 .daohanglan{
 	width:100%;
-	height:40px;
+	height:50px;
 	background-color:#999;
 	position:fixed;
-	margin-top:-50px;
-	padding-top:10px;}
-.diceng{
+	z-index:1;}
+.zuodh{
+	background-color:#0FF;
+	width:25%;
+	height:100%;
+	position:fixed;
 	margin-top:50px;}
-.zhong{}
+.zuodh li{
+	padding-left:40px;
+	height:50px;
+	color:#36F;}
+.zuodh li a{
+	color:#36F;}
+.diceng{
+	float:left;
+	height:1500px;
+	width:100%;}
+.zhong{
+	background-color:#CCC;
+	margin-left:25%;
+	margin-top:50px;
+	height:100%;
+	padding:30px;
+	}
+h1{
+	text-align:center;
+	color:#0F0;
+	height:50px;
+	width:100%;
+	line-height:50px;}
 a{
 	text-decoration:none;
 	color:#666;}
-ul{
+.zhong ul{
 	clear:left;}
-li{
+.zhong li{
 	float:left;
 	padding-left:10px;
 	width:100px;
 	height:50px;
 	line-height:30px;
 	text-align:left;}
+span{
+	width:60px;
+	height:25px;
+	background-color:#000;
+	text-align:20px;
+	color:#FFF;
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	padding-bottom:5px;}
+i{
+	border:8px solid;
+	border-color:transparent transparent transparent #000;
+	position:absolute;
+	top:20%;
+	right:-16px;}
+.banquan{
+	height:20px;
+	background-color:#666;
+	clear:both;
+	text-align:center;}
 </style>
 </head>
 
 <body>
 <!--导航栏-->
    <div class="daohanglan">
+      <h1>HMY</h1>
+   </div>
+<!-- 左栏-->
+   <div class="zuodh">
+      <ol>
+         <li>【书签】</li>
+         <li><a href="http://192.168.31.1">小米路由器</a></li>
+         <li><a href="http://www.cnplugins.com/">chrome插件</a></li>
+         <li><a href="https://freessr.win/">免费SSR账号</a></li>
+         <li><a href="https://github.com/">Github</a></li>
+         <li><a href="https://greasyfork.org">油猴脚本</a></li>
+         <li><a href="http://wuxianlin.com/">wuxianlin</a></li>
+         <li><a href="http://itellyou.cn/">MSDN,i tell you</a></li>
+         <li><a href="http://www.adobe.com/cn/downloads/updates.html">Adobe软件</a></li>
+         <li><a href="http://www.xitongzhijia.net/">系统之家</a></li>
+         <li><a href="https://weibo.com/">新浪微博</a></li>
+      </ol>
+   </div>
+<!--右栏-->
+   <div class="diceng">
+   <div class="zhong">
       <ul>
+         <li><span>网站<i></i></span></li>
          <li><a href="https://www.baidu.com">百度</a></li>
          <li><a href="https://www.sogou.com">搜狗</a></li>
       </ul>
-   </div>
-   <div class="diceng">
-   <div class="zhong">   
+      <br/>   
       <ul>
-         <li>【购物】</li>
+         <li><span>剁手<i></i></span></li>
          <li><a href="https://www.taobao.com">淘宝</a></li>
-         <li><a href="https://m.tmall.com">天猫</a></li>
-         <li><a href="">京东</a></li>
-         <li><a href="">唯品会</a></li>
+         <li><a href="https://www.tmall.com">天猫</a></li>
+         <li><a href="https://www.jd.com">京东</a></li>
+         <li><a href="https://weibo.com/">唯品会</a></li>
       </ul>
       <br/>
       <ul>
-         <li>【影视】</li>
-         <li><a href="">优酷</a></li>
-         <li><a href="">爱奇艺</a></li>
-         <li><a href="">腾讯视频</a></li>
-         <li><a href="">80S</a></li>
+         <li><span>追剧<i></i></span></li>
+         <li><a href="http://www.youku.com/">优酷</a></li>
+         <li><a href="http://www.iqiyi.com">爱奇艺</a></li>
+         <li><a href="https://v.qq.com">腾讯视频</a></li>
+         <li><a href="http://www.80s.tw">80S</a></li>
+         <li><a href="https://www.bilibili.com/">哔哩哔哩</a></li>
+         <li><a href="http://www.acfun.cn/">AC Fun</a></li>
       </ul>
       <br/>
       <ul>
-         <li>【社区】</li>
-         <li><a href="">小米</a></li>
-         <li><a href="">华为</a></li>
-         <li><a href="">一加</a></li>
-         <li><a href="">魅族</a></li>
-         <li><a href="">360</a></li>
+         <li><span>社区<i></i></span></li>
+         <li><a href="http://bbs.xiaomi.cn/">小米</a></li>
+         <li><a href="http://cn.club.vmall.com/">华为</a></li>
+         <li><a href="http://www.oneplusbbs.com/">一加</a></li>
+         <li><a href="https://bbs.meizu.cn/">魅族</a></li>
+         <li><a href="http://bbs.360.cn/">360</a></li>
       </ul>
       <br/>
       <ul>
-         <li>【论坛】</li>
-         <li><a href="">百度贴吧</a></li>
-         <li><a href="">智友论坛</a></li>
-         <li><a href="">吾爱论坛</a></li>
+         <li><span>论坛<i></i></span></li>
+         <li><a href="https://tieba.baidu.com">百度贴吧</a></li>
+         <li><a href="http://bbs.zhiyoo.com/">智友论坛</a></li>
+         <li><a href="https://www.52pojie.cn/forum.php">吾爱论坛</a></li>
       </ul>
       <br/>
       <ul>
-         <li>【学习】</li>
-         <li><a href="">网易云课堂</a></li>
-         <li><a href="">w3cschool</a></li>
-         <li><a href="">慕课网</a></li>      
+         <li><span>提升<i></i></span></li>
+         <li><a href="http://study.163.com/">网易云课堂</a></li>
+         <li><a href="https://www.w3cschool.cn/">w3cschool</a></li>
+         <li><a href="https://www.imooc.com/">慕课网</a></li> 
+         <li><a href="https://m.runoob.com">菜鸟教程</a></li>
+         <li><a href="http://www.uisdc.com/">优设</a></li>     
       </ul>
+      <br/>
+      <ul>
+         <li><span>图片<i></i></span></li>
+         <li><a href="http://www.lofter.com">LOFTER乐乎</a></li>
+         <li><a href="https://www.vcg.com/">视觉中国</a></li>
+         <li><a href="http://www.fengniao.com/">蜂鸟网</a></li>
+         <li><a href="http://www.58pic.com/">千图网</a></li>
+      </ul>
+      <ul>
+         <li><span>^-^<i></i></span></li>
+         <li><a href="https://sso.toutiao.com">今日头条</a></li>
+         <li><a href="http://www.12306.cn">12306</a></li>
+         <li><a href="https://wenku.baidu.com/">百度文库</a></li>
+         <li><a href="http://www.zol.com.cn/">中关村在线</a></li>
+         <li><a href="https://www.youtube.com">YouTube</a></li>
+      </ul>
+      <div class="banquan">
+         <h6>版权所有 违者必究</h6>
+      </div>
    </div>
    </div>
 </body>
